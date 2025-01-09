@@ -22,13 +22,13 @@ struct config
 int main()
 {
     struct config twip4 = 
-        { 
-        "Macos/Debian", 
-        "C, C++, Python, Java, PHP", 
+    { 
+        "Macos/Debian",
+        "C, C++, Python, Java, PHP",
         "Nvim",
-        "Seek strength. The rest will follow", 
+        "Seek strength. The rest will follow",
         "Epita" 
-        };
+    };
     
     return 0;
 }
