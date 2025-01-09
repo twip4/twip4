@@ -10,19 +10,26 @@
 ## 🌟 my setup
 
 ``` C
-#include <twip4.h>
-
 struct config
 {
-    char *os = "Macos/Debian";
-    char *languages = "C, C++, Python, Java, PHP";
-    char *editor = "Nvim";
-    char *motto = "Seek strength. The rest will follow";
-    char *school = "Epita";
-}
+    char *os;
+    char *languages;
+    char *editor;
+    char *motto;
+    char *school;
+};
 
-int main() {
-    struct config twip4;
+int main()
+{
+    struct config twip4 = 
+        { 
+        "Macos/Debian", 
+        "C, C++, Python, Java, PHP", 
+        "Nvim",
+        "Seek strength. The rest will follow", 
+        "Epita" 
+        };
+    
     return 0;
 }
 ```
